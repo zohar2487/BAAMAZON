@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>bamazondb</string>
+			<key>host</key>
+			<string>localhost</string>
+			<key>kcid</key>
+			<string>-2356688316070003326</string>
+			<key>name</key>
+			<string>localhost</string>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPSocketConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>root</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>utf8</string>
+			<key>contentFilter</key>
+			<dict/>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGOTpYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoK0HCBUWFxgZHSQoLDE2VSRudWxs0wkK
+			CwwQFFdOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzow0OD4ACgAOA
+			BKMREhOABYAGgAiADFR0eXBlVHJvd3NUa2V5c18QJlNlbGVjdGlv
+			bkRldGFpbFR5cGVQcmltYXJ5S2V5ZWREZXRhaWxz0wkKCxobHKCg
+			gAfSHh8gIVokY2xhc3NuYW1lWCRjbGFzc2VzXxATTlNNdXRhYmxl
+			RGljdGlvbmFyeaMgIiNcTlNEaWN0aW9uYXJ5WE5TT2JqZWN00goL
+			JSehJoAJgAvSCykqK1lOUy5zdHJpbmeACldpdGVtX2lk0h4fLS5f
+			EA9OU011dGFibGVTdHJpbmejLS8wWE5TU3RyaW5nWE5TT2JqZWN0
+			0h4fMjNeTlNNdXRhYmxlQXJyYXmjMjQ1V05TQXJyYXlYTlNPYmpl
+			Y3TSHh8iN6IiOFhOU09iamVjdF8QD05TS2V5ZWRBcmNoaXZlctE7
+			PFRkYXRhgAEACAARABoAIwAtADIANwBFAEsAUgBaAGUAbABwAHIA
+			dAB2AHoAfAB+AIAAggCHAIwAkQC6AMEAwgDDAMUAygDVAN4A9AD4
+			AQUBDgETARUBFwEZAR4BKAEqATIBNwFJAU0BVgFfAWQBcwF3AX8B
+			iAGNAZABmQGrAa4BswAAAAAAAAIBAAAAAAAAAD0AAAAAAAAAAAAA
+			AAAAAAG1
+			</data>
+			<key>contentSortColIsAsc</key>
+			<true/>
+			<key>contentViewport</key>
+			<string>{{1, 0}, {584, 423.5}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>queries</key>
+			<string>CREATE DATABASE bamazondb;
+ USE bamazondb;
+ CREATE TABLE products (
+   item_id INTEGER NOT NULL AUTO_INCREMENT,
+   product_name VARCHAR (50),
+   department_name VARCHAR (50),
+   price DECIMAL(10,2),
+   stock_quantity INTEGER (10) NULL,
+   
+   PRIMARY KEY (item_id)
+   
+   );
+   
+   
+INSERT INTO Products (product_name, department_name, price, stock_quantity)
+VALUES ("sterilite pencil box", "school and office supplies", 1.00, 500),
+("box file", "school and office supplies", 16.00, 100),
+("stoneware pencil cup", "school and office supplies", 8.00, 80),
+("dell e7440 windows 10 pro laptop", "electronics", 530.00, 100),
+("gopro hero session", "electronics", 150.00, 50),
+("skyline rolling duffel", "luggage", 40.00, 30),
+("greenpan rio 12pc cookware set", "kitchen and dining", 160.00, 50),
+("atlantis salad bowl and tongs", "kitchen and dining", 26.00, 30),
+("cetaphil gentle clean cleanser", "beauty", 4.00, 200),
+("claritin 24 hour non-drowsy allergy relief", "health", 19.00, 200),
+("tazo passion herbal tea", "food and beverage", 4.00, 50);
+
+SELECT *FROM Products;
+</string>
+			<key>table</key>
+			<string>products</string>
+			<key>view</key>
+			<string>SP_VIEW_CONTENT</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>200</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>INSERT INTO Products (product_name, department_name, price, stock_quantity)
+VALUES ("sterilite pencil box", "school and office supplies", 1.00, 500),
+("box file", "school and office supplies", 16.00, 100),
+("stoneware pencil cup", "school and office supplies", 8.00, 80),
+("dell e7440 windows 10 pro laptop", "electronics", 530.00, 100),
+("gopro hero session", "electronics", 150.00, 50),
+("skyline rolling duffel", "luggage", 40.00, 30),
+("greenpan rio 12pc cookware set", "kitchen and dining", 160.00, 50),
+("atlantis salad bowl and tongs", "kitchen and dining", 26.00, 30),
+("cetaphil gentle clean cleanser", "beauty", 4.00, 200),
+("claritin 24 hour non-drowsy allergy relief", "health", 19.00, 200),
+("tazo passion herbal tea", "food and beverage", 4.00, 50)</string>
+		<string>CREATE TABLE products (
+   item_id INTEGER NOT NULL AUTO_INCREMENT,
+   product_name VARCHAR (50),
+   department_name VARCHAR (50),
+   price DECIMAL(10,2),
+   stock_quantity INTEGER (10) NULL,
+   
+   PRIMARY KEY (item_id)
+   
+   )</string>
+		<string>CREATE TABLE products</string>
+		<string>USE bamazondb</string>
+		<string>CREATE DATABASE bamazondb</string>
+		<string>CREATE DATABASE blogger</string>
+		<string>INSERT INTO tasks (task) VALUES ('Pick up milk.');
+INSERT INTO tasks (task) VALUES ('Mow the lawn.');
+INSERT INTO tasks (task) VALUES ('Call Shannon back.')</string>
+		<string>-- Create the table tasks.
+CREATE TABLE tasks (
+  id int NOT NULL AUTO_INCREMENT,
+  task varchar(255) NOT NULL,
+  PRIMARY KEY (id)
+)</string>
+		<string>-- Insert a set of records.
+INSERT INTO tasks (task) VALUES ('Pick up milk.');
+INSERT INTO tasks (task) VALUES ('Mow the lawn.');
+INSERT INTO tasks (task) VALUES ('Call Shannon back.')</string>
+		<string>USE task_saver_db</string>
+		<string>CREATE DATABASE task_saver_db</string>
+		<string>INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("iPad", "Electronics", 700.00, 10),
+("XBox 1", "Electronics", 299.99, 8),
+("Keurig", "Kitchen", 45.00, 15),
+("Pokemon Cards", "Games", 5.00, 100),
+("'The Beatles' Vinyl Record", "Music", 100.00, 5),
+("Pogo Stick", "Outdoors", 30.00, 200),
+("Tent", "Camping", 80.00, 40),
+("Diamond Earrings", "Jewelry", 2000.00, 20),
+("iPhone 7 Case", "Electronics", 20.99, 100),
+("Curtains", "Home", 39.99, 72),
+("Car Mat - 4 Pack", "Automobile", 30.00, 107)</string>
+		<string>CREATE TABLE products (
+  item_id INT(10) AUTO_INCREMENT NOT NULL,
+  product_name VARCHAR(100) NOT NULL,
+  department_name VARCHAR(100) NOT NULL,
+  price DECIMAL(10,2) NOT NULL,
+  stock_quantity INT (100) NOT NULL,
+  PRIMARY KEY (item_id)
+)</string>
+		<string>Select * from products
+  
+    INSERT INTO products (products_name, department_name, price, stock_quantity)
+   VALUES ("knife", "kitchen",10.00, 98),
+   ("XBox 1", "Electronics", 360.99, 25),
+   ("Pokemon Cards", "Games", 10.00, 100),
+   ("Ipad", "Electronics", 700.00, 25),
+   ("Tent", "Outdoors", 150.00, 50),
+   ("Diamond Earrings", "Jewelry", 2500.00, 26),
+   ("Iphone", "Electronics", 499.00, 25),
+   ("Curtains", "Home", 39.99, 100),
+   ("Tires", "Automotive" 500.00, 50),
+   ("Dog Food", "Pets", 59.00, 100),
+   ("Nintendo", "Electronics", 250.00, 100),
+   ("Pink Floyd cd", "Electronics", 9.99, 100)</string>
+		<string>CREATE TABLE product (
+   item_id INTEGER(10) AUTO_INCREMENT NOT NULL,
+   product_name VARCHAR(100) NOT NULL,
+   department_name VARCHAR(100) NOT NULL,
+   price decimal(10,2) NOT NULL,
+   stock_quantity INT(100) NOT NULL
+   PRIMARY KEY (item_id)
+   )</string>
+		<string>CREATE TABLE products 
+   (item_id INTEGER(10) AUTO_INCREMENT NOT NULL,
+   product_name VARCHAR(100) NOT NULL,
+   department_name VARCHAR(100) NOT NULL,
+   price decimal(10,2) NOT NULL,
+   stock_quantity INT(100) NOT NULL
+   PRIMARY KEY (item_id)
+   )</string>
+		<string>CREATE TABLE products (</string>
+		<string>CREATE TABLE products (
+   item_id INTEGER(10) AUTO_INCREMENT NOT NULL,
+   product_name VARCHAR(100) NOT NULL,
+   department_name VARCHAR(100) NOT NULL,
+   price decimal(10,2) NOT NULL,
+   stock_quantity INT(100) NOT NULL
+   PRIMARY KEY (item_id)
+   )</string>
+		<string>DROP DATABASE IF EXISTS `bamazonDB`
+CREATE database `bamazonDB`;
+USE `bamazonDB`;
+CREATE TABLE products (
+   item_id INTEGER(10) AUTO_INCREMENT NOT NULL,
+   product_name VARCHAR(100) NOT NULL,
+   department_name VARCHAR(100) NOT NULL,
+   price decimal(10,2) NOT NULL,
+   stock_quantity INT(100) NOT NULL
+   PRIMARY KEY (item_id)
+   );
+INSERT INTO products (products_name, department_name, price, stock_quantity)
+   VALUES ("knife", "kitchen",10, 98),
+   ("XBox 1", "Electronics", "360.99", 80),</string>
+		<string>DROP DATABASE IF EXISTS `bamazonDB`
+CREATE database `bamazonDB`</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>5.7.26</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
